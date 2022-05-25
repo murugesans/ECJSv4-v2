@@ -9,36 +9,20 @@
 
     //PayPal REST API endpoints
     define("SANDBOX_ENDPOINT", "https://api.sandbox.paypal.com");
-    //define("SANDBOX_ENDPOINT", "https://api.stage2d0515.qa.paypal.com:11888");
     define("LIVE_ENDPOINT", "https://api.paypal.com");
 
     //Merchant ID
-    define("MERCHANT_ID","E9GCL5FX4TU2C");
+    define("MERCHANT_ID","");
 
     //PayPal REST App SG(muru_sgbus@pp.com) SANDBOX Client Id and Client Secret
-    define("SANDBOX_CLIENT_ID" , "AYPRSHXvddDzYq36L_Ya3Um0zMdKQ-RdYKvmq9PW-x5Nu1FWTAzoH95EHE5kA4rjzvmi-oT5EWR_caDu");
-	define("SANDBOX_CLIENT_SECRET", "ED91SXDfqjwbOmEU9Op8O_k6ymKSA8fjtVuKcu1Xd4JNEtjleAh7ouwtXGYDna8-uSrBErDDE6Y7tSFF");
+    define("SANDBOX_CLIENT_ID" , "");
+	define("SANDBOX_CLIENT_SECRET", "");
 	
 
-  //Goutham gg_aus@123.com 
-   // define("SANDBOX_CLIENT_ID" , "AVKeZbTZSRYR9mDD5Q26qXNDwFrP-WL4okkzgpUIX1_dl21XwV-qEBpYxmD_BYieBOrV19Rg2Im_JK_T");
-   //define("SANDBOX_CLIENT_SECRET", "EGbBxyQR4JP8yCIiNfZzKEOobaexl6chAgGyULnem7zP5lR2yro0Oz7XlCJTPMK2HRGABmmKGAUT3TVY");
-
-	//US SB
-	//define("SANDBOX_CLIENT_ID" , "ATWk3eZ8GJBdo7GVx6LCAxbfzSAB_9_ccn-MSHFmgXiR2Me_VJkedNwk3OC24k0qHxiUPMuGcUHHO-FN");
-   // define("SANDBOX_CLIENT_SECRET", "EGVKX8odr19-U0LmBdqRYAHGoKl9H_ejGEbmUfBsgOlN9hhdQ6A6wAMeUfdXyifL2Sa8vI-OSrX6flPa");
-	
-	//PayPal REST App IN Stage Client Id and Client Secret
-    //define("SANDBOX_CLIENT_ID" , "AXN-PpAoujGdz8DBq6s-wEGM0RRKOJWvFPBgPt5faKmk20RgqsoE2CghPOGlHf_F4jWNKJVaz6UHyhTy");
-   // define("SANDBOX_CLIENT_SECRET", "EBTs6Y8jM99w_FhZW8C6hK-rDsRUE3A2SA7Z6Yw7C1ZPe_4NBtsdWbmiH012AMQ17glH_cEZd1AGyIpe");
 
     //Environments -Sandbox and Production/Live
     define("SANDBOX_ENV", "sandbox");
     define("LIVE_ENV", "production");
-
-    //PayPal REST App SG(dl-pp-seatesting@paypal.com) Live Client Id and Client Secret
-    //define("LIVE_CLIENT_ID" , "AbOqLzAB6a-CyqMbj6TGE8ZLreaBKNFNecBMM7xHobWI_KXErRgjW_b4NWEalCReUHsP4Nzv7sBlXn8B");
-    //define("LIVE_CLIENT_SECRET" , "EGIQtUQj-nGxOX5kQ2KNJoeHm7TSjvAVOOATVa_mQHHwrky3Q3wipUk9gyK-ayojyTTAbkdnvkl-gIKx");
 
     //ButtonSource Tracker Code
     define("SBN_CODE","PP-ECJSv4Sample");
